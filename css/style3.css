@@ -1,0 +1,39 @@
+body{
+    background-image: url('../img/about1.jpg');
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.nav ul{
+    list-style-type: none;
+    /* margin-left: 600px; */
+    /* margin-top: 20px; */
+}
+.nav ul li{
+    float: right;
+    
+}
+.nav ul li a{
+    display: block;
+    color: rgb(222, 206, 206);
+    text-decoration: none;
+    background: linear-gradient(to top,brown 50%,chocolate);
+    margin: 10px;
+    padding: 10px;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    font-size: 30px;
+    /* backdrop-filter: blur(10px); */
+}
+.section1 {
+    /* border: 1px solid black; */
+    padding-top:50px ;
+}
+.section1 h1{
+    margin-left: 300px;
+}
+.section1 {
+    /* border: 1px solid black; */
+    padding-left: 100px;
+    padding-right: 100px;
+}

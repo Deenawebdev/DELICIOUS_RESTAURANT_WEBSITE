@@ -1,0 +1,42 @@
+body{
+    background-color:rgb(230, 239, 255);
+    font-style: italic;
+}
+.nav ul{
+    list-style-type: none;
+}
+.nav ul li{
+    float: right;
+}
+.nav ul li a{
+    display: block;
+    color: whitesmoke;
+    text-decoration: none;
+    padding: 10px;
+    font-size: 30px;
+    background:linear-gradient(to top,aqua,blue);
+    margin: 10px;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    /* backdrop-filter: blur(10px); */
+}
+
+.section1 h1{
+    padding-left: 500px;
+    font-size: 60px;
+    background: linear-gradient(rgb(1, 1, 104),skyblue,blue );
+    background-clip: text;
+    color: transparent;
+}
+.img h1{
+    /* border: 1px solid black; */
+    color: blue;
+    margin-left: 700px;
+    margin-right: 600px;
+}
+.img table{
+    margin-left: 250px;
+}
+.img table td{
+    padding: 20px;
+}
